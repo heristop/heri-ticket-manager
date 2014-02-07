@@ -1,0 +1,30 @@
+
+h2 {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.ux-filtered-column {
+    color: #000 !important;
+}
+
+.icon-search, .ux-gridfilter-text-icon {
+    background-image: url(/bundles/heriticket/images/icons/magnifier.png) !important;
+}
+
+.icon-tab-go {
+    background-image: url(/bundles/heriticket/images/icons/tab_go.png) !important;
+}
+
+.icon-list {
+    background-image: url(/bundles/heriticket/images/icons/application_view_list.png) !important;
+}
+
+.icon-ticket-show {
+    background-image: url(/bundles/heriticket/images/icons/page_white.png) !important;
+}
+
+.icon-comments {
+    background-image: url(/bundles/heriticket/images/icons/comments.png) !important;
+}

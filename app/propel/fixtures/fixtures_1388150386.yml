@@ -1,0 +1,14 @@
+Heri\TicketBundle\Model\Priority:
+    Priority_1:
+        label: low
+    Priority_2:
+        label: normal
+    Priority_3:
+        label: high
+    Priority_4:
+        label: emergency
+Heri\TicketBundle\Model\Topic:
+    Topic_1:
+        label: info
+    Topic_2:
+        label: bug

@@ -1,0 +1,5 @@
+heri_ticket:
+    resource: "@HeriTicketBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

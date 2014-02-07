@@ -1,0 +1,11 @@
+composer.lock
+/web/bundles/
+/web/js/*
+/web/css/*
+/app/cache/*
+/app/logs/*
+/vendor/
+/app/config/parameters.yml
+/app/config/config_env.yml
+/app/phpunit.xml
+*.komodoproject

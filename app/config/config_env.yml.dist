@@ -1,0 +1,11 @@
+propel:
+    dbal:
+        driver:             mysql
+        user:               %user%
+        password:           %password%
+        dsn:                mysql:host=%localhost%;dbname=%senchaticket%
+        options:
+            MYSQL_ATTR_USE_BUFFERED_QUERY: true
+        attributes:         {}
+        settings:
+            charset:        { value: UTF8 }
