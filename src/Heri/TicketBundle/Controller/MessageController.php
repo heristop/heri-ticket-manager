@@ -60,10 +60,5 @@ class MessageController extends Controller
         
         return $response;
     }
-    
-    protected function prepareRow($row)
-    {
-        return $row;
-    }
 
 }

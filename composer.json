@@ -21,7 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "willdurand/faker-bundle": "@stable",
         "propel/propel-bundle": "1.4.*",
-        "heristop/propel-senchagridable-behavior": "*"
+        "heristop/propel-senchagridable-behavior": "1.0.*"
     },
     "scripts": {
         "post-install-cmd": [
@@ -42,7 +42,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "dev",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",

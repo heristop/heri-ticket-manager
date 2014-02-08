@@ -4,10 +4,18 @@
  * @author Alexandre Mogère
  */
 
-Ext.Loader.setPath('Ext.ux', '/bundles/heriticket/ext/examples/ux');
-Ext.require([
+Ext.Loader.setConfig({
+    enabled: false,
+    /*paths: {
+        'Ext.ux': '/bundles/heriticket/ext/examples/ux'
+    }*/
+});
+
+/*Ext.require([
+    'Ext.ux.grid.filter.Filter',
+    'Ext.ux.grid.filter.DateFilter',
     'Ext.ux.grid.FiltersFeature'
-]);
+]);*/
 
 Ext.application({
     name: 'Ticket',

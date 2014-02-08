@@ -4,12 +4,20 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Ticket Middle Office</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('bundles/heriticket/ext/resources/ext-theme-neptune/ext-theme-neptune-all.css') }}">
-        {% stylesheets '@HeriTicketBundle/Resources/public/css/*' %}
+        {% stylesheets
+            '@HeriTicketBundle/Resources/public/ext/examples/ux/grid/css/*'
+            '@HeriTicketBundle/Resources/public/css/*'
+            filter='?yui_css'
+        %}
         <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
         {% endstylesheets %}
         <script type="text/javascript" src="{{ asset('bundles/heriticket/ext/ext-all.js') }} "></script>
         <script type="text/javascript" src="{{ asset('bundles/heriticket/ext/ext-theme-neptune.js') }} "></script>
         {% javascripts
+            '@HeriTicketBundle/Resources/public/ext/examples/ux/grid/menu/*'
+            '@HeriTicketBundle/Resources/public/ext/examples/ux/grid/filter/Filter.js'
+            '@HeriTicketBundle/Resources/public/ext/examples/ux/grid/filter/*'
+            '@HeriTicketBundle/Resources/public/ext/examples/ux/grid/*'
             '@HeriTicketBundle/Resources/public/js/vendor/*'
             '@HeriTicketBundle/Resources/public/js/app/model/*'
             '@HeriTicketBundle/Resources/public/js/app/store/*'
@@ -17,6 +25,7 @@
             '@HeriTicketBundle/Resources/public/js/app/view/*/*'
             '@HeriTicketBundle/Resources/public/js/app/controller/*'
             '@HeriTicketBundle/Resources/public/js/app/*'
+            filter='?yui_js'
         %}
             <script src="{{ asset_url }}"></script>
         {% endjavascripts %}

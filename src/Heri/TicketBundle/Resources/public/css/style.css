@@ -9,6 +9,22 @@ h2 {
     color: #000 !important;
 }
 
+.ux-gridfilter-text-icon {
+    background-image: url(/bundles/heriticket/images/icons/magnifier.png) !important;
+}
+
+.ux-rangemenu-gt {
+    background-image: url(/bundles/heriticket/ext/examples/ux/grid/images/greater_than.png) !important;
+}
+
+.ux-rangemenu-lt {
+    background-image: url(/bundles/heriticket/ext/examples/ux/grid/images/less_than.png) !important;
+}
+
+.ux-rangemenu-eq {
+    background-image: url(/bundles/heriticket/ext/examples/ux/grid/images/equals.png) !important;
+}
+
 .icon-search, .ux-gridfilter-text-icon {
     background-image: url(/bundles/heriticket/images/icons/magnifier.png) !important;
 }

@@ -1,6 +1,7 @@
 /**
  * This file is part of HeriTicketBundle.
  *
+ * @author Alexandre Mogère
  */
 
 Ext.define('Ticket.store.Messages', {

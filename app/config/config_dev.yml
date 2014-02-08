@@ -34,3 +34,24 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+# Faker Configuration
+bazinga_faker:
+    locale: en_GB
+    entities:
+        Heri\TicketBundle\Model\Message:
+            number: 30
+            custom_formatters:
+                Status:        { method: null }
+                Source:        { method: null }
+        Heri\TicketBundle\Model\User:
+            number: 5
+            custom_formatters:
+                Fullname:      { method: name }
+                Salt:          { method: md5 }
+                LastLogin:     { method: dateTimeThisMonth }
+                ExpireAt:      { method: null }
+        Heri\TicketBundle\Model\Response:
+            number: 30
+            custom_formatters:
+                IpAddress:     { method: ipv4 }

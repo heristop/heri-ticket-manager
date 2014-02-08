@@ -1,7 +1,13 @@
+/**
+ * This file is part of HeriTicketBundle.
+ *
+ * @author Alexandre Mogère
+ */
+
 Ext.define('Ticket.view.message.List', {
     extend: 'Ticket.view.ListPanel',
     alias: 'widget.messagelist',
-    
+        
     initComponent: function() {
         var me = this;
         

@@ -1,3 +1,9 @@
+/**
+ * This file is part of HeriTicketBundle.
+ *
+ * @author Alexandre Mogère
+ */
+
 Ext.define('Ticket.view.message.Show', {
     extend: 'Ext.Panel',
     alias: 'widget.messageshow',
